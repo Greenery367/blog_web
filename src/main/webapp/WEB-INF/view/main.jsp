@@ -1,103 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오늘의 예제</title>
-<style>
-    body{
-        padding: 0;
-        margin: 0;
-    }
-    .header{
-        display: flex;
-        width:1000px;
-        height:70px;
-        background-color:lightgray;
-    }
-    .header-title{
-        display:flex;
-        align-items: center;
-    }
-    .main-board{
-        display: flex;
+<%@ include file="/WEB-INF/view/layout/header.jsp" %>
 
-    }
-    .side-menu{
-        width:170px;
-        height: 270px;
-        border-radius:20px;
-        border: 3px solid lightgray;
-        margin:20px;
-        padding:10px;
-    }
-    .box-container{
-        padding: 20px;
-        margin: 20px;
-        width: 730px;
-    }
-    .box-list{
-        display:flex;
-    }
-    .box{
-        padding: 8px;
-        margin: 8px;
-        display: flex-reverse;
-        align-items:center;
-        justify-content: center;
-    }
-    .image{
-        display: flex;
-        width: 150px;
-        height: 150px;
-        border:1px solid gray;
-    }
-    .post-date{
-        color:lightgray;
-    }
-    .pageNumber{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .caregory-name{
-        padding:10px 30px;
-    }
-
-    .menu{
-        text-decoration: none;
-        color: gray;
-    }
-    a{
-        text-decoration: none;
-    }
-    .image-name{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
-</head>
-<body>
-    <div class="header">
-        <h1 class="header-title">Green's Blog</h1>
-    </div>
-    <div class="main-board">
-        <div class="side-menu">
-            <h4>전체보기</h4>
-            <a href="#" class="menu">Python （12）</a><br>
-            <a href="#" class="menu">Java （2）</a><br>
-            <a href="#" class="menu">IOS （8）</a><br>
-            <a href="#" class="menu">소프트웨어 자료(26)</a><br>
-            <a href="#" class="menu">리눅스 (8)</a><br>
-            <a href="#" class="menu">Git (4)</a><br>
-            <a href="#" class="menu">자기계발 (3)</a><br>
-            <a href="#" class="menu">경영전략 (20)</a><br>
-            <a href="#" class="menu">리더쉽 (7)</a><br>
-        </div>
-        <div class="main-menu">
             <h4 class="caregory-name">경영전략 20</h4>
             <div class="box-continer">
                 <div class="box">
@@ -164,7 +68,7 @@
                             <a href="detailPage.html">
                                 <div class="image">
                                 </div>
-                               \     <p class="post-title">이디야 아망추</p>
+                                    <p class="post-title">이디야 아망추</p>
                                      <p class="post-date">2024.07.20</p>
                             </a> 
                         </div>
@@ -252,8 +156,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-    </div>
-</body>
-</html>
+       
+<%@ include file="/WEB-INF/view/layout/footer.jsp" %>
