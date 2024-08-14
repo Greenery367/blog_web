@@ -7,7 +7,7 @@
                 <div class="box">
                     <div class="box-list">
                         <div class="box">
-                            <a href="/detail">
+                            <a href="/board/detail">
                                 <div class="image">
                                 </div>
                                     <p class="post-title">이디야 아망추</p>
@@ -15,7 +15,7 @@
                             </a> 
                         </div>
                         <div class="box">
-                            <a href="detailPage.html">
+                            <a href="/board/detail">
                                 <div class="image">
                                 </div>
                                     <p class="post-title">이디야 아망추</p>
@@ -23,7 +23,7 @@
                             </a> 
                         </div>
                         <div class="box">
-                            <a href="detailPage.html">
+                            <a href="/board/detail">
                                 <div class="image">
                                 </div>
                                     <p class="post-title">이디야 아망추</p>
@@ -31,7 +31,7 @@
                             </a> 
                         </div>
                         <div class="box">
-                            <a href="detailPage.html">
+                            <a href="/board/detail">
                                 <div class="image">
                                 </div>
                                     <p class="post-title">이디야 아망추</p>

@@ -23,7 +23,7 @@
     		<img class="profile-img" src="">
     		<h2>닉네임</h2>
     		<h5>프로필 문구</h5>
-    		<a href="#" class="nav-bar-content">회원정보 수정</a>
+    		<button>마이 페이지</button>
     	</div>
         <div class="side-menu">
             <h4>전체보기</h4>
