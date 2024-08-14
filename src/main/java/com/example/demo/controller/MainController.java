@@ -24,10 +24,14 @@ public class MainController {
 		return "main";
 	}
 
-	@GetMapping("signin")
+	@GetMapping("/sign-in")
 	public String signinPage() {
-		return "signin";
+		return "user/signin";
 	}
 	
+	@GetMapping("/sign-up")
+	public String signupPage() {
+		return "user/signup";
+	}
 	
 }

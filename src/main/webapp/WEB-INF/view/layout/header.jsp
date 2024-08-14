@@ -11,15 +11,15 @@
 <body>
 	<div class="nav-bar">
 			<a href="#" class="nav-bar-content">-님의 마이페이지</a>
-    		<a href="#" class="nav-bar-content">로그인</a>
-    		<a href="#" class="nav-bar-content">회원가입</a>
+    		<a href="/user/sign-in" class="nav-bar-content">로그인</a>
+    		<a href="/user/sign-up" class="nav-bar-content">회원가입</a>
     </div>
     <div class="header">
         <h1 class="header-title">Green's Blog</h1>
     </div>
     <div class="main-board">
     	<div class="side-bar">
-    		<div class="user-profile">
+    	<div class="user-profile">
     		<img class="profile-img" src="">
     		<h2>닉네임</h2>
     		<h5>프로필 문구</h5>
