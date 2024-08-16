@@ -3,11 +3,11 @@ package com.example.demo.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.demo.dto.SignInDTO;
 import com.example.demo.dto.SignUpDTO;
+import com.example.demo.repository.model.User;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -44,14 +44,17 @@ public class UserController {
 	public String signInProc(SignInDTO dto) {
 		
 		
-		
-		return "main";
+		return "";
 	}
 	
 	@PostMapping("/sign-up")
 	public String sigUpProc(SignUpDTO dto) {
-		//TODO: process POST request
-		return dto;
+	//  유효성 검사
+		
+		User user=dto.toUser();
+		userService.
+			
+		return "";
 	}
 	
 	

@@ -16,7 +16,7 @@ public class BoardController {
 		this.session=session;
 	}
 	
-	@GetMapping({"/main-page","/index"})
+	@GetMapping({"/index"})
 	public String mainPage() {
 //		if(session==null) {
 //			return "view/signin";
